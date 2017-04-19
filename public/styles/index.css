@@ -1,0 +1,48 @@
+* {
+  font-family: "Proxima Nova";
+}
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.search-form {
+  margin-top: 30px;
+}
+.search-form #actionSearch[disabled] {
+  opacity: 0.5;
+}
+.search-form .btn-enlace {
+  background: none;
+  text-decoration: underline;
+  color: #00f;
+  border: 0;
+}
+@media only screen and (max-width: 650px) {
+  .search-form {
+    display: none;
+  }
+}
+.list-save {
+  list-style: none;
+  padding-left: 2em;
+}
+.list-save li {
+  height: 2.5em;
+}
+.list-save li span {
+  cursor: pointer;
+}
+.list-save li:hover {
+  background: #ebecff;
+}
+.list-save li:hover .option {
+  display: block;
+}
+.list-save li .option {
+  font-size: 0.8em;
+  display: none;
+}
+.list-save span {
+  color: #00f;
+  text-decoration: underline;
+}
